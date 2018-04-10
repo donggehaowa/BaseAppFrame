@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CEC6EE3E46C69758939F783 /* libPods-KangLeBao.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 710E000D27254E53DE5033F4 /* libPods-KangLeBao.a */; };
+		B247C0911DB064E400BD3525 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B247C0901DB064E400BD3525 /* main.m */; };
+		B247C0941DB064E400BD3525 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B247C0931DB064E400BD3525 /* AppDelegate.m */; };
+		B247C0971DB064E400BD3525 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B247C0961DB064E400BD3525 /* ViewController.m */; };
+		B247C09A1DB064E400BD3525 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B247C0981DB064E400BD3525 /* Main.storyboard */; };
+		B247C09C1DB064E400BD3525 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B247C09B1DB064E400BD3525 /* Assets.xcassets */; };
+		B247C09F1DB064E400BD3525 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B247C09D1DB064E400BD3525 /* LaunchScreen.storyboard */; };
+		B247C0A81DB067E000BD3525 /* FBDTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B247C0A61DB067E000BD3525 /* FBDTabBarViewController.m */; };
+		B247C0B01DB0684C00BD3525 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B247C0AB1DB0684C00BD3525 /* BaseNavigationController.m */; };
+		B247C0B11DB0684C00BD3525 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = B247C0AD1DB0684C00BD3525 /* BaseView.m */; };
+		B247C0B21DB0684C00BD3525 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B247C0AF1DB0684C00BD3525 /* BaseViewController.m */; };
+		B247C0C41DB0758E00BD3525 /* FBDSwizzingTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B247C0B91DB0758E00BD3525 /* FBDSwizzingTool.m */; };
+		B247C0C51DB0758E00BD3525 /* NSArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = B247C0BB1DB0758E00BD3525 /* NSArray+Safe.m */; };
+		B247C0C61DB0758E00BD3525 /* NSMutableArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = B247C0BD1DB0758E00BD3525 /* NSMutableArray+Safe.m */; };
+		B247C0C71DB0758E00BD3525 /* NSMutableDictionary+RunTime.m in Sources */ = {isa = PBXBuildFile; fileRef = B247C0BF1DB0758E00BD3525 /* NSMutableDictionary+RunTime.m */; };
+		B247C0C81DB0758E00BD3525 /* NSObject+ImpChangeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B247C0C11DB0758E00BD3525 /* NSObject+ImpChangeTool.m */; };
+		B247C0C91DB0758E00BD3525 /* UIViewController+RunTimeSW.m in Sources */ = {isa = PBXBuildFile; fileRef = B247C0C31DB0758E00BD3525 /* UIViewController+RunTimeSW.m */; };
+		B247C0CD1DB0779700BD3525 /* UIViewController+ShowHUB.m in Sources */ = {isa = PBXBuildFile; fileRef = B247C0CC1DB0779700BD3525 /* UIViewController+ShowHUB.m */; };
+		B247C0D01DB077A700BD3525 /* UIAlertView+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = B247C0CF1DB077A700BD3525 /* UIAlertView+Blocks.m */; };
+		B247C0D41DB078BE00BD3525 /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = B247C0D31DB078BE00BD3525 /* MBProgressHUD+Add.m */; };
+		B247C0D71DB07BFE00BD3525 /* BaseRefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B247C0D61DB07BFE00BD3525 /* BaseRefreshViewController.m */; };
+		B247C0DA1DB0803200BD3525 /* MainRefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B247C0D91DB0803200BD3525 /* MainRefreshViewController.m */; };
+		B2754EB91DDBE85700D8D1ED /* BaseNavBarRefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2754EB81DDBE85700D8D1ED /* BaseNavBarRefreshViewController.m */; };
+		B2ADBD021DDAF875005874C5 /* BaseNavBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2ADBD011DDAF875005874C5 /* BaseNavBarViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19746372CC34213F36C00569 /* Pods-KangLeBao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KangLeBao.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KangLeBao/Pods-KangLeBao.debug.xcconfig"; sourceTree = "<group>"; };
+		4567E5A22F16ADC865B91BDF /* Pods-KangLeBao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KangLeBao.release.xcconfig"; path = "Pods/Target Support Files/Pods-KangLeBao/Pods-KangLeBao.release.xcconfig"; sourceTree = "<group>"; };
+		710E000D27254E53DE5033F4 /* libPods-KangLeBao.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KangLeBao.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B247C08C1DB064E400BD3525 /* KangLeBao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KangLeBao.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B247C0901DB064E400BD3525 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B247C0921DB064E400BD3525 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B247C0931DB064E400BD3525 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B247C0951DB064E400BD3525 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B247C0961DB064E400BD3525 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B247C0991DB064E400BD3525 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B247C09B1DB064E400BD3525 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B247C09E1DB064E400BD3525 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B247C0A01DB064E400BD3525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B247C0A61DB067E000BD3525 /* FBDTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBDTabBarViewController.m; sourceTree = "<group>"; };
+		B247C0A71DB067E000BD3525 /* FBDTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDTabBarViewController.h; sourceTree = "<group>"; };
+		B247C0AA1DB0684C00BD3525 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		B247C0AB1DB0684C00BD3525 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		B247C0AC1DB0684C00BD3525 /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		B247C0AD1DB0684C00BD3525 /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
+		B247C0AE1DB0684C00BD3525 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		B247C0AF1DB0684C00BD3525 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		B247C0B31DB0687F00BD3525 /* AppDefineHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDefineHeader.h; sourceTree = "<group>"; };
+		B247C0B81DB0758E00BD3525 /* FBDSwizzingTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDSwizzingTool.h; sourceTree = "<group>"; };
+		B247C0B91DB0758E00BD3525 /* FBDSwizzingTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBDSwizzingTool.m; sourceTree = "<group>"; };
+		B247C0BA1DB0758E00BD3525 /* NSArray+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Safe.h"; sourceTree = "<group>"; };
+		B247C0BB1DB0758E00BD3525 /* NSArray+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Safe.m"; sourceTree = "<group>"; };
+		B247C0BC1DB0758E00BD3525 /* NSMutableArray+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Safe.h"; sourceTree = "<group>"; };
+		B247C0BD1DB0758E00BD3525 /* NSMutableArray+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Safe.m"; sourceTree = "<group>"; };
+		B247C0BE1DB0758E00BD3525 /* NSMutableDictionary+RunTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+RunTime.h"; sourceTree = "<group>"; };
+		B247C0BF1DB0758E00BD3525 /* NSMutableDictionary+RunTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+RunTime.m"; sourceTree = "<group>"; };
+		B247C0C01DB0758E00BD3525 /* NSObject+ImpChangeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ImpChangeTool.h"; sourceTree = "<group>"; };
+		B247C0C11DB0758E00BD3525 /* NSObject+ImpChangeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ImpChangeTool.m"; sourceTree = "<group>"; };
+		B247C0C21DB0758E00BD3525 /* UIViewController+RunTimeSW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RunTimeSW.h"; sourceTree = "<group>"; };
+		B247C0C31DB0758E00BD3525 /* UIViewController+RunTimeSW.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RunTimeSW.m"; sourceTree = "<group>"; };
+		B247C0CB1DB0779700BD3525 /* UIViewController+ShowHUB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ShowHUB.h"; sourceTree = "<group>"; };
+		B247C0CC1DB0779700BD3525 /* UIViewController+ShowHUB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ShowHUB.m"; sourceTree = "<group>"; };
+		B247C0CE1DB077A700BD3525 /* UIAlertView+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Blocks.h"; sourceTree = "<group>"; };
+		B247C0CF1DB077A700BD3525 /* UIAlertView+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Blocks.m"; sourceTree = "<group>"; };
+		B247C0D21DB078BE00BD3525 /* MBProgressHUD+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Add.h"; sourceTree = "<group>"; };
+		B247C0D31DB078BE00BD3525 /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = "<group>"; };
+		B247C0D51DB07BFD00BD3525 /* BaseRefreshViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseRefreshViewController.h; sourceTree = "<group>"; };
+		B247C0D61DB07BFE00BD3525 /* BaseRefreshViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseRefreshViewController.m; sourceTree = "<group>"; };
+		B247C0D81DB0803200BD3525 /* MainRefreshViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainRefreshViewController.h; sourceTree = "<group>"; };
+		B247C0D91DB0803200BD3525 /* MainRefreshViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainRefreshViewController.m; sourceTree = "<group>"; };
+		B2754EB71DDBE85700D8D1ED /* BaseNavBarRefreshViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavBarRefreshViewController.h; sourceTree = "<group>"; };
+		B2754EB81DDBE85700D8D1ED /* BaseNavBarRefreshViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavBarRefreshViewController.m; sourceTree = "<group>"; };
+		B2754EBA1DDBEE7700D8D1ED /* AppFileHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppFileHeader.h; sourceTree = "<group>"; };
+		B2ADBD001DDAF875005874C5 /* BaseNavBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavBarViewController.h; sourceTree = "<group>"; };
+		B2ADBD011DDAF875005874C5 /* BaseNavBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavBarViewController.m; sourceTree = "<group>"; };
+		B2ADBD031DDB0B3F005874C5 /* TypeHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeHeader.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B247C0891DB064E400BD3525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CEC6EE3E46C69758939F783 /* libPods-KangLeBao.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6456007FA3A109836EDBD1DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				710E000D27254E53DE5033F4 /* libPods-KangLeBao.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83E74D51F23A220B3EC3553C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19746372CC34213F36C00569 /* Pods-KangLeBao.debug.xcconfig */,
+				4567E5A22F16ADC865B91BDF /* Pods-KangLeBao.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B247C0831DB064E400BD3525 = {
+			isa = PBXGroup;
+			children = (
+				B247C08E1DB064E400BD3525 /* KangLeBao */,
+				B247C08D1DB064E400BD3525 /* Products */,
+				83E74D51F23A220B3EC3553C /* Pods */,
+				6456007FA3A109836EDBD1DB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B247C08D1DB064E400BD3525 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B247C08C1DB064E400BD3525 /* KangLeBao.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B247C08E1DB064E400BD3525 /* KangLeBao */ = {
+			isa = PBXGroup;
+			children = (
+				B247C0A91DB0684C00BD3525 /* BaseVC&View */,
+				B247C0B71DB0721C00BD3525 /* AllTools */,
+				B247C0921DB064E400BD3525 /* AppDelegate.h */,
+				B247C0931DB064E400BD3525 /* AppDelegate.m */,
+				B247C0951DB064E400BD3525 /* ViewController.h */,
+				B247C0961DB064E400BD3525 /* ViewController.m */,
+				B247C0D81DB0803200BD3525 /* MainRefreshViewController.h */,
+				B247C0D91DB0803200BD3525 /* MainRefreshViewController.m */,
+				B247C0A71DB067E000BD3525 /* FBDTabBarViewController.h */,
+				B247C0A61DB067E000BD3525 /* FBDTabBarViewController.m */,
+				B247C0981DB064E400BD3525 /* Main.storyboard */,
+				B247C09B1DB064E400BD3525 /* Assets.xcassets */,
+				B247C09D1DB064E400BD3525 /* LaunchScreen.storyboard */,
+				B247C0A01DB064E400BD3525 /* Info.plist */,
+				B247C08F1DB064E400BD3525 /* Supporting Files */,
+			);
+			path = KangLeBao;
+			sourceTree = "<group>";
+		};
+		B247C08F1DB064E400BD3525 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B247C0901DB064E400BD3525 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B247C0A91DB0684C00BD3525 /* BaseVC&View */ = {
+			isa = PBXGroup;
+			children = (
+				B247C0AA1DB0684C00BD3525 /* BaseNavigationController.h */,
+				B247C0AB1DB0684C00BD3525 /* BaseNavigationController.m */,
+				B247C0AC1DB0684C00BD3525 /* BaseView.h */,
+				B247C0AD1DB0684C00BD3525 /* BaseView.m */,
+				B247C0AE1DB0684C00BD3525 /* BaseViewController.h */,
+				B247C0AF1DB0684C00BD3525 /* BaseViewController.m */,
+				B247C0D51DB07BFD00BD3525 /* BaseRefreshViewController.h */,
+				B247C0D61DB07BFE00BD3525 /* BaseRefreshViewController.m */,
+				B2ADBD001DDAF875005874C5 /* BaseNavBarViewController.h */,
+				B2ADBD011DDAF875005874C5 /* BaseNavBarViewController.m */,
+				B2754EB71DDBE85700D8D1ED /* BaseNavBarRefreshViewController.h */,
+				B2754EB81DDBE85700D8D1ED /* BaseNavBarRefreshViewController.m */,
+			);
+			path = "BaseVC&View";
+			sourceTree = "<group>";
+		};
+		B247C0B41DB0703700BD3525 /* Macros(宏定义) */ = {
+			isa = PBXGroup;
+			children = (
+				B247C0B31DB0687F00BD3525 /* AppDefineHeader.h */,
+				B2754EBA1DDBEE7700D8D1ED /* AppFileHeader.h */,
+				B2ADBD031DDB0B3F005874C5 /* TypeHeader.h */,
+			);
+			name = "Macros(宏定义)";
+			sourceTree = "<group>";
+		};
+		B247C0B51DB0706C00BD3525 /* NetWork(网络) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "NetWork(网络)";
+			sourceTree = "<group>";
+		};
+		B247C0B61DB0707500BD3525 /* Category(类别) */ = {
+			isa = PBXGroup;
+			children = (
+				B247C0D11DB0781700BD3525 /* UIAlertView&VC */,
+				B247C0CA1DB075A500BD3525 /* RunTime:ArrayMultDiC */,
+			);
+			name = "Category(类别)";
+			sourceTree = "<group>";
+		};
+		B247C0B71DB0721C00BD3525 /* AllTools */ = {
+			isa = PBXGroup;
+			children = (
+				B247C0B51DB0706C00BD3525 /* NetWork(网络) */,
+				B247C0B61DB0707500BD3525 /* Category(类别) */,
+				B247C0B41DB0703700BD3525 /* Macros(宏定义) */,
+			);
+			name = AllTools;
+			sourceTree = "<group>";
+		};
+		B247C0CA1DB075A500BD3525 /* RunTime:ArrayMultDiC */ = {
+			isa = PBXGroup;
+			children = (
+				B247C0B81DB0758E00BD3525 /* FBDSwizzingTool.h */,
+				B247C0B91DB0758E00BD3525 /* FBDSwizzingTool.m */,
+				B247C0BA1DB0758E00BD3525 /* NSArray+Safe.h */,
+				B247C0BB1DB0758E00BD3525 /* NSArray+Safe.m */,
+				B247C0BC1DB0758E00BD3525 /* NSMutableArray+Safe.h */,
+				B247C0BD1DB0758E00BD3525 /* NSMutableArray+Safe.m */,
+				B247C0BE1DB0758E00BD3525 /* NSMutableDictionary+RunTime.h */,
+				B247C0BF1DB0758E00BD3525 /* NSMutableDictionary+RunTime.m */,
+				B247C0C01DB0758E00BD3525 /* NSObject+ImpChangeTool.h */,
+				B247C0C11DB0758E00BD3525 /* NSObject+ImpChangeTool.m */,
+				B247C0C21DB0758E00BD3525 /* UIViewController+RunTimeSW.h */,
+				B247C0C31DB0758E00BD3525 /* UIViewController+RunTimeSW.m */,
+			);
+			name = "RunTime:ArrayMultDiC";
+			sourceTree = "<group>";
+		};
+		B247C0D11DB0781700BD3525 /* UIAlertView&VC */ = {
+			isa = PBXGroup;
+			children = (
+				B247C0D21DB078BE00BD3525 /* MBProgressHUD+Add.h */,
+				B247C0D31DB078BE00BD3525 /* MBProgressHUD+Add.m */,
+				B247C0CB1DB0779700BD3525 /* UIViewController+ShowHUB.h */,
+				B247C0CC1DB0779700BD3525 /* UIViewController+ShowHUB.m */,
+				B247C0CE1DB077A700BD3525 /* UIAlertView+Blocks.h */,
+				B247C0CF1DB077A700BD3525 /* UIAlertView+Blocks.m */,
+			);
+			name = "UIAlertView&VC";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B247C08B1DB064E400BD3525 /* KangLeBao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B247C0A31DB064E400BD3525 /* Build configuration list for PBXNativeTarget "KangLeBao" */;
+			buildPhases = (
+				5F1899FD06997A18075A0A0F /* [CP] Check Pods Manifest.lock */,
+				B247C0881DB064E400BD3525 /* Sources */,
+				B247C0891DB064E400BD3525 /* Frameworks */,
+				B247C08A1DB064E400BD3525 /* Resources */,
+				2893B4BED47210CCE54A45C7 /* [CP] Embed Pods Frameworks */,
+				9B7FA7AD60A89FC179520369 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KangLeBao;
+			productName = KangLeBao;
+			productReference = B247C08C1DB064E400BD3525 /* KangLeBao.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B247C0841DB064E400BD3525 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "冯宝东";
+				TargetAttributes = {
+					B247C08B1DB064E400BD3525 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = UWQPN2RE82;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B247C0871DB064E400BD3525 /* Build configuration list for PBXProject "KangLeBao" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B247C0831DB064E400BD3525;
+			productRefGroup = B247C08D1DB064E400BD3525 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B247C08B1DB064E400BD3525 /* KangLeBao */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B247C08A1DB064E400BD3525 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B247C09F1DB064E400BD3525 /* LaunchScreen.storyboard in Resources */,
+				B247C09C1DB064E400BD3525 /* Assets.xcassets in Resources */,
+				B247C09A1DB064E400BD3525 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2893B4BED47210CCE54A45C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KangLeBao/Pods-KangLeBao-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F1899FD06997A18075A0A0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9B7FA7AD60A89FC179520369 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KangLeBao/Pods-KangLeBao-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B247C0881DB064E400BD3525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B247C0C81DB0758E00BD3525 /* NSObject+ImpChangeTool.m in Sources */,
+				B247C0DA1DB0803200BD3525 /* MainRefreshViewController.m in Sources */,
+				B247C0971DB064E400BD3525 /* ViewController.m in Sources */,
+				B247C0941DB064E400BD3525 /* AppDelegate.m in Sources */,
+				B247C0C51DB0758E00BD3525 /* NSArray+Safe.m in Sources */,
+				B247C0D71DB07BFE00BD3525 /* BaseRefreshViewController.m in Sources */,
+				B247C0911DB064E400BD3525 /* main.m in Sources */,
+				B247C0C41DB0758E00BD3525 /* FBDSwizzingTool.m in Sources */,
+				B247C0A81DB067E000BD3525 /* FBDTabBarViewController.m in Sources */,
+				B2754EB91DDBE85700D8D1ED /* BaseNavBarRefreshViewController.m in Sources */,
+				B247C0D41DB078BE00BD3525 /* MBProgressHUD+Add.m in Sources */,
+				B247C0C71DB0758E00BD3525 /* NSMutableDictionary+RunTime.m in Sources */,
+				B247C0B01DB0684C00BD3525 /* BaseNavigationController.m in Sources */,
+				B247C0B21DB0684C00BD3525 /* BaseViewController.m in Sources */,
+				B247C0C61DB0758E00BD3525 /* NSMutableArray+Safe.m in Sources */,
+				B247C0C91DB0758E00BD3525 /* UIViewController+RunTimeSW.m in Sources */,
+				B247C0D01DB077A700BD3525 /* UIAlertView+Blocks.m in Sources */,
+				B247C0B11DB0684C00BD3525 /* BaseView.m in Sources */,
+				B247C0CD1DB0779700BD3525 /* UIViewController+ShowHUB.m in Sources */,
+				B2ADBD021DDAF875005874C5 /* BaseNavBarViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B247C0981DB064E400BD3525 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B247C0991DB064E400BD3525 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B247C09D1DB064E400BD3525 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B247C09E1DB064E400BD3525 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B247C0A11DB064E400BD3525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B247C0A21DB064E400BD3525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B247C0A41DB064E400BD3525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19746372CC34213F36C00569 /* Pods-KangLeBao.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = UWQPN2RE82;
+				INFOPLIST_FILE = KangLeBao/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.medsci.KangLeBao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B247C0A51DB064E400BD3525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4567E5A22F16ADC865B91BDF /* Pods-KangLeBao.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = UWQPN2RE82;
+				INFOPLIST_FILE = KangLeBao/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.medsci.KangLeBao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B247C0871DB064E400BD3525 /* Build configuration list for PBXProject "KangLeBao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B247C0A11DB064E400BD3525 /* Debug */,
+				B247C0A21DB064E400BD3525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B247C0A31DB064E400BD3525 /* Build configuration list for PBXNativeTarget "KangLeBao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B247C0A41DB064E400BD3525 /* Debug */,
+				B247C0A51DB064E400BD3525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B247C0841DB064E400BD3525 /* Project object */;
+}
